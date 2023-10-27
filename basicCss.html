@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .my-name{
+            color: blue;
+        }
+        .my-town{
+            color:blueviolet
+        }
+
+        #my-village{
+            color: gold;
+        }
+        #outer h1{
+            color: deepskyblue;
+
+        }
+        
+        .outer1{
+            width: 500px;
+            height: 500px;
+            border: 20;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            align-items: center;
+
+        }
+        .items{
+            width: 200px;
+            height: 200px;
+            border: inherit;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            flex-grow: 1;
+        }
+
+       
+    </style>
+
+
+</head>
+<body>
+    <div class="my-name"> 
+        <h1> Kavindu Prabhashana</h1>
+        <h1> Dewmini Chamasha</h1>
+        
+    </div>
+
+    <div class="my-town">
+        <h1>Hakmana</h1>
+        <h1>Matara</h1>
+    </div>
+
+    <div id="my-village">
+        <h1>Kndegoda</h1>
+        <h1>Vijaya Road</h1>
+    </div>
+
+    <div id="outer">
+        <h1>Kndegoda</h1>
+        <h1>Vijaya Road</h1>
+
+        <div id="inner">
+            <h1>Hakmana</h1>
+            <h1>Matara</h1>
+        </div>
+    </div>
+
+    <!--FLEX BOX-->
+    <div class="outer1">
+        <div class="items"> 1</div>
+        <div class="items"> 2</div>
+        <div class="items"> 3</div>
+        <div class="items"> 4</div>
+    </div>
+
+   <!--Transition--> 
+</body>
+</html>
